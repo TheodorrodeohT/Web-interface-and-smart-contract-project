@@ -163,52 +163,27 @@ window.onload = function() {
     }
 
     getElement('type_placement_10x10').addEventListener('click', function(e) {
-        var el = e.target;
-        if (el.tagName != 'SPAN') return;
 
         var shipsCollection = getElement('ships_collection');
         user.cleanField();
 
-        var type = el.getAttribute('data-target'),
-            typeGeneration = {
-                'random': function() {
-                    shipsCollection.setAttribute('data-hidden', true);
-                    user.randomLocationShips();
-                }
-            };
-        typeGeneration[type]();
+        shipsCollection.setAttribute('data-hidden', true);
+        user.randomLocationShips();
     });
     getElement('type_placement_13x13').addEventListener('click', function(e) {
-        var el = e.target;
-        if (el.tagName != 'SPAN') return;
 
         var shipsCollection = getElement('ships_collection');
         user.cleanField();
-
-        var type = el.getAttribute('data-target'),
-            typeGeneration = {
-                'random': function() {
-                    shipsCollection.setAttribute('data-hidden', true);
-                    user.randomLocationShips();
-                }
-            };
-        typeGeneration[type]();
+        
+        shipsCollection.setAttribute('data-hidden', true);
+        user.randomLocationShips();
     });
     getElement('type_placement_15x15').addEventListener('click', function(e) {
-        var el = e.target;
-        if (el.tagName != 'SPAN') return;
-
         var shipsCollection = getElement('ships_collection');
         user.cleanField();
-
-        var type = el.getAttribute('data-target'),
-            typeGeneration = {
-                'random': function() {
-                    shipsCollection.setAttribute('data-hidden', true);
-                    user.randomLocationShips();
-                }
-            };
-        typeGeneration[type]();
+        
+        shipsCollection.setAttribute('data-hidden', true);
+        user.randomLocationShips();
     });
 
     getElement('size_10x10').addEventListener('click', function(e) {
