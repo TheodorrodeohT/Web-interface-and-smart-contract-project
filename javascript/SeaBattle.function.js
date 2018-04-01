@@ -259,6 +259,16 @@ window.onload = function() {
             hiddenElement.click();
     }
 
+    function saveInput() {
+        var input = document.getElementById("session_name").value;
+
+        var hiddenElement = document.createElement('a');
+            hiddenElement.href = 'data:attachment/text,' + JSON.stringify(input) + '\n' + JSON.stringify(cell_amount) + '\n' + JSON.stringify(JSON.decycle(user)) + '\n';
+            hiddenElement.target = '_blank';
+            hiddenElement.download = input + '.save';
+            hiddenElement.click();
+    }
+
     // window.saveInput = function () {
     //     var userField = user;
     //     var cells = cell_amount;
