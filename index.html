@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="css/image-gallery.style.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <script type="text/javascript" src="javascript/SeaBattle.function.js"></script> -->
 </head>
 
 <style>
@@ -38,7 +39,7 @@
         <div class="w3-row-padding" style="margin:0 -16px;">
           <div class="my-half my-margin-bottom">
             <label><i class="fa fa-file"></i> Session name</label>
-            <input class="my-input w3-border" type="text" placeholder="SaveGame_1" name="filename" required>
+            <input id="session_name" class="my-input w3-border" type="text" placeholder="SaveGame_1" name="filename" required>
           </div>
           <div class="my-half">
             <label><i class="fab fa-microsoft"></i> Field size</label><br>
@@ -59,8 +60,8 @@
               <i>You can't cross the sea merely by standing and staring at the water.</i>
             </div>
         </div>
-        <button class="my-button my-dark-grey" type="submit"><i class="fa fas fa-cloud-upload-alt my-margin-right"></i>Save configuration</button>
-        <button class="my-button my-dark-grey" type="submit"><i class="fa fas fa-cloud-download-alt my-margin-right"></i>Load configuration</button>
+        <button id="save_config" class="my-button my-dark-grey" type="button" onclick="saveInput()"><i class="fa fas fa-cloud-upload-alt my-margin-right"></i>Save configuration</button>
+        <button id="load_config" class="my-button my-dark-grey" type="button" onclick="loadInput()"><i class="fa fas fa-cloud-download-alt my-margin-right"></i>Load configuration</button>
       </form>
     </div>
   </div>
@@ -104,7 +105,7 @@
           <img src="img/sea-battle.jpg"/>
           <div class="mask">
             <h2>Sea Battle</h2>
-            <p>Battleship (also Battleships or Sea Battle) is a guessing game for two players. It is played on ruled grids (paper or board)
+            <p> Battleship (also Battleships or Sea Battle) is a guessing game for two players. It is played on ruled grids (paper or board)
                 on which the players' fleets of ships (including battleships) are marked. The locations of the fleet are concealed from the other player.
                 Players alternate turns calling "shots" at the other player's ships, and the objective of the game is to destroy the opposing player's fleet.
                 Battleship is known worldwide as a pencil and paper game which dates from World War I.
@@ -123,7 +124,7 @@
               <img src="img/one-decker.png"/>
               <div class="mask">
                 <h2>One-decker</h2>
-                <p>A ship of the line was a type of naval warship constructed from the 17th through to the mid-19th century to take part in
+                <p> A ship of the line was a type of naval warship constructed from the 17th through to the mid-19th century to take part in
                     the naval tactic known as the line of battle, in which two columns of opposing warships would manoeuvre to bring the greatest
                     weight of broadside firepower to bear.</p>
                 <a href="https://en.wikipedia.org/wiki/Ship_of_the_line" class="info" target="_blank">Read More</a>
@@ -137,7 +138,7 @@
               <img src="img/two-decker.jpg"/>
               <div class="mask">
                 <h2>Two-decker</h2>
-                <p>A two-decker is a sail warship which carried her guns on two fully armed decks. Usually additional guns were carried on the upper works
+                <p> A two-decker is a sail warship which carried her guns on two fully armed decks. Usually additional guns were carried on the upper works
                     (forecastle and quarterdeck), but this was not a continuous battery, so were not counted.</p>
                 <a href="https://en.wikipedia.org/wiki/Two-decker" class="info" target="_blank">Read More</a>
               </div>
@@ -152,7 +153,7 @@
               <img src="img/three-decker.jpg"/>
               <div class="mask">
                 <h2>Three-decker</h2>
-                <p>A three-decker was a sailing warship which carried her principal carriage-mounted guns on three fully armed decks.
+                <p> A three-decker was a sailing warship which carried her principal carriage-mounted guns on three fully armed decks.
                     Usually additional (smaller) guns were carried on the upper works (forecastle and quarterdeck), but this was not a
                     continuous battery and so did not count as a "fourth deck".</p>
                 <a href="https://en.wikipedia.org/wiki/Three-decker" class="info" target="_blank">Read More</a>
@@ -166,7 +167,7 @@
               <img src="img/four-decker.jpg"/>
               <div class="mask">
                 <h2>Four-decker</h2>
-                <p>Santísima Trinidad (officially named Nuestra Señora de la Santísima Trinidad by royal order on 12 March 1768, nicknamed La Real,
+                <p> Santísima Trinidad (officially named Nuestra Señora de la Santísima Trinidad by royal order on 12 March 1768, nicknamed La Real,
                     sometimes confused with the galleon Santísima Trinidad y Nuestra Señora del Buen Fin) was a Spanish first-rate ship of the line with 112 guns.</p>
                 <a href="https://en.wikipedia.org/wiki/Spanish_ship_Nuestra_Se%C3%B1ora_de_la_Sant%C3%ADsima_Trinidad" class="info">Read More</a>
               </div>
@@ -206,6 +207,7 @@
 </footer>
 
 <script src="javascript/SeaBattle.function.js"></script>
+<script src="javascript/cycle.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </body>
 

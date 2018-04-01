@@ -164,7 +164,6 @@ window.onload = function() {
     }
 
     getElement('type_placement_10x10').addEventListener('click', function(e) {
-
         var shipsCollection = getElement('ships_collection');
         user.cleanField();
 
@@ -172,7 +171,6 @@ window.onload = function() {
         user.randomLocationShips();
     });
     getElement('type_placement_13x13').addEventListener('click', function(e) {
-
         var shipsCollection = getElement('ships_collection');
         user.cleanField();
         
@@ -250,4 +248,30 @@ window.onload = function() {
         }
         return arr;
     }
+
+    window.saveInput = function() {
+        var input = document.getElementById("session_name").value;
+
+        var hiddenElement = document.createElement('a');
+            hiddenElement.href = 'data:attachment/text,' + JSON.stringify(input) + '\n' + JSON.stringify(cell_amount) + '\n' + JSON.stringify(JSON.decycle(user)) + '\n';
+            hiddenElement.target = '_blank';
+            hiddenElement.download = input + '.save';
+            hiddenElement.click();
+    }
+
+    // window.saveInput = function () {
+    //     var userField = user;
+    //     var cells = cell_amount;
+    //     var input = document.getElementById("session_name").value;
+
+    //     localStorage.setItem('input', JSON.stringify(input));
+    //     localStorage.setItem('cells', JSON.stringify(cells));
+    //     localStorage.setItem('userField', JSON.stringify(userField));
+    // }
+
+    // window.loadInput = function() {
+    //     user = JSON.parse(localStorage.getItem('userField'));
+    //     cell_amount = JSON.parse(localStorage.getItem('cells'));
+    //     document.getElementById("session_name").value = JSON.parse(localStorage.getItem('input'));
+    // }
 }
