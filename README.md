@@ -51,12 +51,15 @@
 ![save_load](https://i.imgur.com/xZ1eVW0.png "save_load")
 
 - Визуальное представление игрового поля:
+
 ![field](https://i.imgur.com/jfMan6m.png)
 
 - Информация о типе каждого корабля:
+
 ![info](https://i.imgur.com/vhFxiVW.png)
 
 - Форма обратной связи:
+
 ![form](https://i.imgur.com/udidofL.png)
 
 **Средства разработки**
