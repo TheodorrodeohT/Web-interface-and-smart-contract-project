@@ -31,36 +31,36 @@
 
 ### Веб-сайт поделён на две основные секции:
 
-*игровое поле*
+**игровое поле*
 ![first_section](https://i.imgur.com/hg9XumG.jpg)
 
-*база данных*
+**база данных**
 ![second_section](https://i.imgur.com/6z0myma.jpg)
 
 ### Доступный функционал:
 - Изменение названия текущей игровой сессии:
-![session_name](https://i.imgur.com/OddoYI2.png "session_name")
+   ![session_name](https://i.imgur.com/OddoYI2.png "session_name")
 
 - Выбор поля (10x10, 13x13, 15x15):
-![field_size](https://i.imgur.com/dl6ALGV.png "field_size")
+   ![field_size](https://i.imgur.com/dl6ALGV.png "field_size")
 
 - Случайная расстановка кораблей:
-![allocation](https://i.imgur.com/DDTgvwp.png "allocation")
+   ![allocation](https://i.imgur.com/DDTgvwp.png "allocation")
 
 - Сохранение и загрузка файла профиля:
-![save_load](https://i.imgur.com/xZ1eVW0.png "save_load")
+   ![save_load](https://i.imgur.com/xZ1eVW0.png "save_load")
 
 - Визуальное представление игрового поля:
 
-![field](https://i.imgur.com/jfMan6m.png)
+   ![field](https://i.imgur.com/jfMan6m.png)
 
 - Информация о типе каждого корабля:
 
-![info](https://i.imgur.com/vhFxiVW.png)
+   ![info](https://i.imgur.com/vhFxiVW.png)
 
 - Форма обратной связи:
 
-![form](https://i.imgur.com/udidofL.png)
+   ![form](https://i.imgur.com/udidofL.png)
 
 ### Средства разработки
 
