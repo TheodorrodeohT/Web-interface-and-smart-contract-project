@@ -37,7 +37,7 @@
       <h2><i class="fa fa-cogs my-margin-right"></i>Game Setup</h2>
     </div>
     <div class="w3-container my-white my-padding-16px">
-      <form action="/action_page.php" target="_blank">
+      <form action="/action_page.php" target="_blank" onsubmit="return saveInput()">
         <div class="w3-row-padding" style="margin:0 -16px;">
           <div class="my-half my-margin-bottom">
             <label><i class="fa fa-file"></i> Session name</label>
@@ -62,7 +62,7 @@
               <i>You can't cross the sea merely by standing and staring at the water.</i>
             </div>
         </div>
-        <button id="save_config" class="my-button my-dark-grey" type="button" onclick="saveInput()"><i class="fa fas fa-cloud-upload-alt my-margin-right"></i>Save configuration</button>
+        <button id="save_config" class="my-button my-dark-grey" type="submit"><i class="fa fas fa-cloud-upload-alt my-margin-right"></i>Save configuration</button>
         <button id="load_config" class="my-button my-dark-grey" type="button" onclick="loadInput()"><i class="fa fas fa-cloud-download-alt my-margin-right"></i>Load configuration</button>
       </form>
     </div>
