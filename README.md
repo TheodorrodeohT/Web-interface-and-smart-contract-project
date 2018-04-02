@@ -29,7 +29,7 @@
 ## Прототип: "Battleship" game front-end
 На данный момент реализован проект веб-интерфейса приложения "Морской бой": [Sea Battle Web Game](https://theodorrodeoht.github.io/Web-interface-and-smart-contract-project/. "Sea Battle Web Game")
 
-## Веб-сайт поделён на две основные секции:
+### Веб-сайт поделён на две основные секции:
 
 *игровое поле*
 ![first_section](https://i.imgur.com/hg9XumG.jpg)
@@ -37,7 +37,7 @@
 *база данных*
 ![second_section](https://i.imgur.com/6z0myma.jpg)
 
-## Доступный функционал:
+### Доступный функционал:
 - Изменение названия текущей игровой сессии:
 ![session_name](https://i.imgur.com/OddoYI2.png "session_name")
 
@@ -62,6 +62,6 @@
 
 ![form](https://i.imgur.com/udidofL.png)
 
-## Средства разработки
+### Средства разработки
 
 ![](https://png.icons8.com/ios/40/000000/html.png) ![](https://png.icons8.com/ios/40/000000/javascript.png) ![](https://png.icons8.com/ios/40/000000/css.png)
