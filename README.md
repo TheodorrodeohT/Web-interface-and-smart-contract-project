@@ -30,33 +30,40 @@
 На данный момент реализован проект веб-интерфейса приложения "Морской бой": [Sea Battle Web Game](https://theodorrodeoht.github.io/Web-interface-and-smart-contract-project/. "Sea Battle Web Game")
 
 **Веб-сайт поделён на две основные секции:**
-<p align="center">*игровое поле*
+
+*игровое поле*
 ![first_section](https://i.imgur.com/hg9XumG.jpg)
 
 *база данных*
 ![second_section](https://i.imgur.com/6z0myma.jpg)
-</p>
 
 **Доступный функционал:**
-- Изменения названия текущей игровой сессии:
+- Изменение названия текущей игровой сессии:
+
 ![session_name](https://i.imgur.com/OddoYI2.png "session_name")
 
 - Выбор поля (10x10, 13x13, 15x15):
+
 ![field_size](https://i.imgur.com/dl6ALGV.png "field_size")
 
 - Случайная расстановка кораблей:
+
 ![allocation](https://i.imgur.com/DDTgvwp.png "allocation")
 
 - Сохранение и загрузка файла профиля:
+
 ![save_load](https://i.imgur.com/xZ1eVW0.png "save_load")
 
 - Визуальное представление игрового поля:
+
 ![field](https://i.imgur.com/jfMan6m.png)
 
 - Информация о типе каждого корабля:
+
 ![info](https://i.imgur.com/vhFxiVW.png)
 
 - Форма обратной связи:
+
 ![form](https://i.imgur.com/udidofL.png)
 
 **Средства разработки**
