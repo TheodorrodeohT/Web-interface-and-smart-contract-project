@@ -26,7 +26,7 @@
 ------------
 
 
-## Прототип: "Battleship" game front-end
+## Прототип: ["Battleship" game front-end](https://theodorrodeoht.github.io/Web-interface-and-smart-contract-project/)
 На данный момент реализован проект веб-интерфейса приложения "Морской бой": [Sea Battle Web Game](https://theodorrodeoht.github.io/Web-interface-and-smart-contract-project/. "Sea Battle Web Game")
 
 ### Веб-сайт поделён на две основные секции:
