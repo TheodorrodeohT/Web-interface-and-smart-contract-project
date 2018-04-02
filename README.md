@@ -51,6 +51,7 @@
    ![save_load](https://i.imgur.com/xZ1eVW0.png "save_load")
 
 - Работа с формами заполнения:
+
    ![form_error](https://i.imgur.com/inYmnx1.png)
 
 - Визуальное представление игрового поля:
