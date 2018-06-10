@@ -1,0 +1,33 @@
+1527774096483	geckodriver	INFO	geckodriver 0.20.1
+1527774096492	geckodriver	INFO	Listening on 127.0.0.1:46725
+1527774099503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.0YpKdawSNbrp"
+1527774106306	Marionette	INFO	Listening on port 2828
+[Child 3599] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-esr-52.7.1esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 3599] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-52.7.1esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 3599] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-52.7.1esr/ipc/glue/MessageChannel.cpp, line 2152
+1527774155736	geckodriver	INFO	geckodriver 0.20.1
+1527774155748	geckodriver	INFO	Listening on 127.0.0.1:60691
+1527774156792	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.uxby9sJr4Nb1"
+1527774160032	Marionette	INFO	Listening on port 2828
+[Child 3772] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-52.7.1esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 3772] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-52.7.1esr/ipc/glue/MessageChannel.cpp, line 2152
+1527774240214	geckodriver	INFO	geckodriver 0.20.1
+1527774240225	geckodriver	INFO	Listening on 127.0.0.1:47261
+1527774241269	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.mAl1z4GY9jSs"
+1527774244392	Marionette	INFO	Listening on port 2828
+1527774350829	geckodriver	INFO	geckodriver 0.20.1
+1527774350840	geckodriver	INFO	Listening on 127.0.0.1:38075
+1527774351890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.G5yD3OeQ3jMD"
+1527774354906	Marionette	INFO	Listening on port 2828
+[Child 4199] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-52.7.1esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 4199] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-52.7.1esr/ipc/glue/MessageChannel.cpp, line 2152
+1527774408109	geckodriver	INFO	geckodriver 0.20.1
+1527774408119	geckodriver	INFO	Listening on 127.0.0.1:40163
+1527774409169	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RSMkXRRaHgjG"
+1527774412676	Marionette	INFO	Listening on port 2828
+[Child 4345] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-52.7.1esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 4345] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-52.7.1esr/ipc/glue/MessageChannel.cpp, line 2152
+1527774622030	geckodriver	INFO	geckodriver 0.20.1
+1527774622038	geckodriver	INFO	Listening on 127.0.0.1:52997
+1527774623089	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.jHAMlsInVwYQ"
+1527774626326	Marionette	INFO	Listening on port 2828
